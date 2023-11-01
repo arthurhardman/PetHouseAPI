@@ -1,51 +1,19 @@
-﻿using System;
-using PetHouse.Metodos;
-using PetHouse.MenuReserva;
+using PetHouse.Classes;
+using System.Text.Json;
 
-void ExibirLogo()
+using (HttpClient client = new HttpClient())
 {
-    Console.WriteLine(@"
-█▀█ █▀▀ ▀█▀ █░█ █▀█ █░█ █▀ █▀▀
-█▀▀ ██▄ ░█░ █▀█ █▄█ █▄█ ▄█ ██▄");
-    Console.WriteLine("\nBoas vindas ao PetHouse!");
-}
-
-void ExibirMenu()
-{
-    ExibirLogo();
-    Console.WriteLine("Digite 1 para Adicionar Reserva");
-    Console.WriteLine("Digite 2 para Consultar Reserva");
-    Console.WriteLine("Digite 3 para Sair");
-
-    Console.Write("Digite a sua opção: ");
-    string opcaoEscolhida = Console.ReadLine()!;
-
-    MenuReserva menuReserva = new MenuReserva();
-
-    switch (opcaoEscolhida)
+    string jsonUrl = "https://raw.githubusercontent.com/arthurhardman/PetHouse/master/reservas.json";
+    string githubToken = "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";
+    client.DefaultRequestHeaders.Add("Authorization", $"token {githubToken}");
+    try
     {
-        case "1":
-            Console.Write("Número: ");
-            int numero = int.Parse(Console.ReadLine()!);
-            Console.Write("Quarto: ");
-            string quarto = Console.ReadLine()!;
-            Console.Write("Data: ");
-            string data = Console.ReadLine()!;
-            menuReserva.AdicionarReserva(numero, quarto, data);
-            break;
-        case "2":
-            Console.Write("Número da reserva: ");
-            string numeroReserva = Console.ReadLine()!;
-            menuReserva.ConsultarReserva(numeroReserva);
-            break;
-        case "3":
-            Environment.Exit(0);
-            break;
-        default:
-            Console.WriteLine("Opção Inválida");
-            break;
+        string resposta = await client.GetStringAsync(jsonUrl);
+        var reservas = JsonSerializer.Deserialize<List<Reservas>>(resposta)!;
+        reservas[1].ExibirReservas();
     }
-
+    catch (HttpRequestException ex)
+    {
+        Console.WriteLine($"Erro na requisição HTTP: {ex.Message}");
+    }
 }
-
-ExibirMenu();
