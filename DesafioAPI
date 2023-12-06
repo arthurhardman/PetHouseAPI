@@ -1,0 +1,189 @@
+[
+    {
+        "Nome": "Hanna",
+        "Altura": "1.81",
+        "Peso": "85.67",
+        "Rua": "Rua Tarsila do Amaral",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "05/09/1972",
+        "NumeroConta": "55367329",
+        "Saldo": "2519.84"
+    },
+    {
+        "Nome": "Emmanuella",
+        "Altura": "1.86",
+        "Peso": "78.29",
+        "Rua": "Rua Dom João VI",
+        "Cidade": "Campinas",
+        "Estado": "SP",
+        "DataNascimento": "21/02/1989",
+        "NumeroConta": "86225648",
+        "Saldo": "4441.39"
+    },
+    {
+        "Nome": "Riya",
+        "Altura": "1.67",
+        "Peso": "76.97",
+        "Rua": "Rua Alberto de Oliveira",
+        "Cidade": "Porto Alegre",
+        "Estado": "RS",
+        "DataNascimento": "06/03/1978",
+        "NumeroConta": "76065102",
+        "Saldo": "2935.68"
+    },
+    {
+        "Nome": "Nada",
+        "Altura": "1.91",
+        "Peso": "84.61",
+        "Rua": "Rua Dona Maria José",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "18/04/1985",
+        "NumeroConta": "44607153",
+        "Saldo": "3656.22"
+    },
+    {
+        "Nome": "Lemuel",
+        "Altura": "1.79",
+        "Peso": "80.94",
+        "Rua": "Rua Doutor Nelson de Senna",
+        "Cidade": "Brasília",
+        "Estado": "DF",
+        "DataNascimento": "03/12/1986",
+        "NumeroConta": "13035056",
+        "Saldo": "4497.77"
+    },
+    {
+        "Nome": "Ceren",
+        "Altura": "1.56",
+        "Peso": "87.64",
+        "Rua": "Rua São Paulo",
+        "Cidade": "Belo Horizonte",
+        "Estado": "MG",
+        "DataNascimento": "14/01/1987",
+        "NumeroConta": "86586116",
+        "Saldo": "4437.53"
+    },
+    {
+        "Nome": "Caydence",
+        "Altura": "1.57",
+        "Peso": "75.95",
+        "Rua": "Rua Joaquim José da Silva Xavier",
+        "Cidade": "Fortaleza",
+        "Estado": "CE",
+        "DataNascimento": "24/02/1970",
+        "NumeroConta": "17146426",
+        "Saldo": "4562.93"
+    },
+    {
+        "Nome": "Salvador",
+        "Altura": "1.74",
+        "Peso": "79.31",
+        "Rua": "Rua Visconde de Inhaúma",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "11/08/1971",
+        "NumeroConta": "84416056",
+        "Saldo": "4339.89"
+    },
+    {
+        "Nome": "Giorgio",
+        "Altura": "1.96",
+        "Peso": "82.64",
+        "Rua": "Rua Antônio de Almeida",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "02/02/1996",
+        "NumeroConta": "63792012",
+        "Saldo": "3594.89"
+    },
+    {
+        "Nome": "Touma",
+        "Altura": "1.65",
+        "Peso": "83.92",
+        "Rua": "Rua Pedro Lira",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "08/08/1988",
+        "NumeroConta": "98618147",
+        "Saldo": "4417.55"
+    },
+    {
+        "Nome": "Landon",
+        "Altura": "1.91",
+        "Peso": "85.91",
+        "Rua": "Rua Padre Antônio Vieira",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "29/07/1975",
+        "NumeroConta": "98364811",
+        "Saldo": "2228.29"
+    },
+    {
+        "Nome": "Leah",
+        "Altura": "1.83",
+        "Peso": "77.54",
+        "Rua": "Rua Padre Azevedo",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "20/02/1985",
+        "NumeroConta": "20298306",
+        "Saldo": "4162.11"
+    },
+    {
+        "Nome": "Isabell",
+        "Altura": "1.88",
+        "Peso": "84.36",
+        "Rua": "Rua da Carioca",
+        "Cidade": "Rio de Janeiro",
+        "Estado": "RJ",
+        "DataNascimento": "27/10/1975",
+        "NumeroConta": "58355687",
+        "Saldo": "4023.66"
+    },
+    {
+        "Nome": "John",
+        "Altura": "1.56",
+        "Peso": "76.14",
+        "Rua": "Rua São Francisco",
+        "Cidade": "Salvador",
+        "Estado": "BA",
+        "DataNascimento": "08/02/1988",
+        "NumeroConta": "54537863",
+        "Saldo": "4177.37"
+    },
+    {
+        "Nome": "Mariam",
+        "Altura": "1.98",
+        "Peso": "89.13",
+        "Rua": "Rua Marechal Deodoro",
+        "Cidade": "São Paulo",
+        "Estado": "SP",
+        "DataNascimento": "22/12/1982",
+        "NumeroConta": "80771948",
+        "Saldo": "4342.68"
+    },
+    {
+        "Nome": "Rosie",
+        "Altura": "1.77",
+        "Peso": "82.27",
+        "Rua": "Rua Padre Rolim",
+        "Cidade": "Belo Horizonte",
+        "Estado": "MG",
+        "DataNascimento": "10/02/1990",
+        "NumeroConta": "85443322",
+        "Saldo": "2465.91"
+    },
+    {
+        "Nome": "Nehemiah",
+        "Altura": "1.66",
+        "Peso": "80.69",
+        "Rua": "Rua Abílio Soares",
+        "Cidade": "São Paulo",
+        "Estado": "SP",
+        "DataNascimento": "14/03/1983",
+        "NumeroConta": "59891821",
+        "Saldo": "2823.63"
+    }
+]
